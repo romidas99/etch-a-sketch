@@ -1,0 +1,39 @@
+header {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    color: #FFED66;
+    text-align: center;
+    background-color: aqua;
+}
+
+.grid {
+    width: 75vw;
+    height: 75vh;
+    border: solid 5px red;
+    display: inline-grid;
+    overflow: hidden;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+}
+
+.controls {
+    margin: 25px 0px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.black {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: aqua;
+}
